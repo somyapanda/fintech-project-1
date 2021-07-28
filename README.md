@@ -20,7 +20,7 @@ Potential companies and asset types contributing to Seattle housing prices inclu
 Is there a strong individual correlation or weighted index correlation between these datapoints and Seattle housing prices?
 The historical prices of the companies and asset classes over the same measuring period were plotted against historical median housing prices for the regions to calculate correlation. Amazon (0.92), Boeing (0.74), Microsoft (.89), and Bitcoin (0.77) all had a strong positive liner correlation. Gold, Tableau, and Zulily all had weak/minimal correlation, while 30-year Treasury Bonds had a moderately strong negative correlation of (-0.60). Based on the high correlation of Amazon and Microsoft to median housing prices, it became evident that a weighted index of a combination of these companies/data types would not be necessary.
 
-**Collelations Heatmap**
+**Correlations Heatmap**
 
 Can those datapoints be forecasted into the future?
 Amazon was selected as the preeminent asset class because of its high correlation with Seattle median housing prices (0.92). Using a Monte Carlo simulation with 500 iterations based on 5 years of historical stock data, the average estimated cumulative return of Amazon stock in 5 years was 609.4%. Incorporating the closing price of Amazon stock of USD 3,372.20 (as of 4/9/21), the implied price of Amazon stock in 5 years is USD 23,923.33 (USD 3,372.20 * (1 + 6.094)).
